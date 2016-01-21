@@ -1,0 +1,12 @@
+module.exports = {
+    util: {
+        files: 'index.html',
+        extension: ['js', 'es6'],
+        transpiler: [
+            {
+                test: /\.es6$/,
+                handler: require('../index.js')
+            }
+        ]
+    }
+};

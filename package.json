@@ -1,0 +1,29 @@
+{
+  "name": "eustia-babel",
+  "version": "1.0.0",
+  "description": "Eustia babel transpiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd test & eustia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surunzi/eustia-babel.git"
+  },
+  "keywords": [
+    "eustia",
+    "babel",
+    "es6",
+    "transpiler"
+  ],
+  "author": "redhoodsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surunzi/eustia-babel/issues"
+  },
+  "homepage": "https://github.com/surunzi/eustia-babel#readme",
+  "dependencies": {
+    "babel-core": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}
