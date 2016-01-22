@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/surunzi/eustia-babel#readme",
   "dependencies": {
-    "babel-core": "^6.4.5",
+    "babel-core": "^6.4.5"
+  },
+  "devDependencies": {
     "babel-preset-es2015": "^6.3.13"
   }
 }
