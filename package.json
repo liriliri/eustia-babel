@@ -1,6 +1,6 @@
 {
   "name": "eustia-babel",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Eustia babel transpiler",
   "main": "index.js",
   "scripts": {

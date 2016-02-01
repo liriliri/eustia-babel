@@ -5,7 +5,9 @@ module.exports = {
         transpiler: [
             {
                 test: /\.es6$/,
-                handler: require('../index.js')
+                handler: require('../index.js')({
+                    presets: ['es2015']
+                })
             }
         ]
     }
