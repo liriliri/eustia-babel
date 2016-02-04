@@ -7,6 +7,7 @@ var defOpts = {
 
 module.exports = function (options)
 {
+    options = options || {};
     _.defaults(options, defOpts);
 
     return function (src)
